@@ -1,0 +1,7 @@
+version: '3'
+services:
+    web:
+        build: ./percolate
+        container_name: percolate_web
+        ports:
+            - '4200:4200'
